@@ -139,4 +139,5 @@ describe('Testing graphql api', () => {
   it('should delete current user', async () => {
     await deleteUser(app, user.id!);
   });
+  
 });
