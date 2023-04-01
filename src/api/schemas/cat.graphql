@@ -46,7 +46,7 @@ type Mutation {
   createCat(
     cat_name: String!
     weight: Float!
-    birthdate: DateTime!
+    birthdate: DateTime! 
     owner: ID!
     location: LocationInput!
     filename: String!
